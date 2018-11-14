@@ -1,0 +1,81 @@
+
+ Arguments:
+agent_name: full
+autolen: True
+batch_size: 256
+dis_dim: 50
+domain: cooking
+early_stop: 50
+epochs: 200
+gpu_fraction: 0.2
+hist_len: 8
+image_dim: 8
+image_padding: 1
+learning_rate: 0.001
+load_indices: True
+max_train_doms: 6400
+metric: succ
+min_epochs: 20
+model_dim: 50
+num_actions: 2
+num_filters: 32
+num_grams: 9
+num_pos: 37
+num_words: 500
+pos_dim: 50
+result_dir: results/eas_cooking_full_distance.txt
+save_model: True
+start_test_dom: 7200
+start_valid_dom: 6400
+state_dim: 3
+sub_sampling: True
+train_mode: eas
+use_cnn: True
+use_ngrams: True
+weight_dir: weights/eas_cooking_full.h5
+word2vec: <gensim.models.keyedvectors.Word2VecKeyedVectors object at 0x1a278f6d50>
+word_dim: 50
+
+epoch: 1	 loss: 212.190522	 train_f1: 0.360879
+		 valid_f1: 0.113791	 test_f1: 0.113787
+epoch: 2	 loss: 129.029325	 train_f1: 0.539963
+		 valid_f1: 0.163233	 test_f1: 0.161552
+epoch: 3	 loss: 70.045931	 train_f1: 0.604306
+		 valid_f1: 0.175676	 test_f1: 0.176851
+epoch: 4	 loss: 40.780456	 train_f1: 0.633197
+		 valid_f1: 0.178510	 test_f1: 0.179266
+epoch: 5	 loss: 30.726622	 train_f1: 0.642290
+epoch: 6	 loss: 23.660472	 train_f1: 0.648368
+		 valid_f1: 0.179181	 test_f1: 0.180761
+epoch: 7	 loss: 18.528062	 train_f1: 0.654451
+epoch: 8	 loss: 15.981279	 train_f1: 0.656406
+		 valid_f1: 0.179322	 test_f1: 0.181066
+epoch: 9	 loss: 12.886751	 train_f1: 0.659618
+epoch: 10	 loss: 10.574539	 train_f1: 0.661593
+epoch: 11	 loss: 8.682205	 train_f1: 0.662704
+epoch: 12	 loss: 6.972360	 train_f1: 0.663942
+epoch: 13	 loss: 5.550972	 train_f1: 0.665179
+		 valid_f1: 0.179487	 test_f1: 0.181465
+epoch: 14	 loss: 4.491966	 train_f1: 0.665303
+epoch: 15	 loss: 3.636987	 train_f1: 0.665427
+		 valid_f1: 0.179718	 test_f1: 0.182260
+epoch: 16	 loss: 2.845351	 train_f1: 0.665551
+epoch: 17	 loss: 2.306562	 train_f1: 0.665923
+		 valid_f1: 0.180034	 test_f1: 0.182391
+epoch: 18	 loss: 1.886170	 train_f1: 0.666295
+epoch: 19	 loss: 1.452675	 train_f1: 0.666419
+epoch: 20	 loss: 1.221085	 train_f1: 0.666419
+epoch: 21	 loss: 1.034123	 train_f1: 0.666419
+epoch: 22	 loss: 0.888809	 train_f1: 0.666419
+epoch: 23	 loss: 0.818004	 train_f1: 0.666419
+epoch: 24	 loss: 0.732810	 train_f1: 0.666419
+epoch: 25	 loss: 0.738192	 train_f1: 0.666419
+epoch: 26	 loss: 0.707942	 train_f1: 0.666419
+epoch: 27	 loss: 0.755580	 train_f1: 0.666419
+epoch: 28	 loss: 0.745140	 train_f1: 0.666419
+epoch: 29	 loss: 0.800755	 train_f1: 0.666419
+epoch: 30	 loss: 0.866950	 train_f1: 0.666170
+epoch: 31	 loss: 0.878742	 train_f1: 0.666419
+epoch: 32	 loss: 0.957267	 train_f1: 0.666419
+epoch: 33	 loss: 1.029135	 train_f1: 0.666170
+epoch: 34	 loss: 1.092544	 train_f1: 0.666170

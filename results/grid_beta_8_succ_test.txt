@@ -1,0 +1,31 @@
+
+ Arguments:
+agent_name: beta
+autolen: 1
+batch_size: 256
+domain: win2k
+early_stop: 10
+epochs: 200
+gpu_fraction: 0.2
+hist_len: 2
+image_dim: 8
+image_padding: 1
+learning_rate: 0.001
+max_steps: 38
+max_train_doms: 6400
+metric: succ
+min_epochs: 50
+num_actions: 16
+num_filters: 32
+num_pos: 37
+num_words: 500
+pos_dim: 50
+result_dir: results/grid_beta_8_succ_test.txt
+save_model: True
+start_test_dom: 7200
+start_valid_dom: 6400
+state_dim: 3
+sub_sampling: True
+train_mode: grid
+weight_dir: weights/grid_beta_8_succ.h5
+

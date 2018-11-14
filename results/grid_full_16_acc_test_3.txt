@@ -1,0 +1,55 @@
+
+ Arguments:
+agent_name: full
+autolen: 1
+batch_size: 256
+domain: win2k
+early_stop: 10
+epochs: 200
+gpu_fraction: 0.2
+hist_len: 4
+image_dim: 16
+image_padding: 1
+learning_rate: 0.001
+max_steps: 86
+max_train_doms: 6400
+metric: acc
+min_epochs: 20
+num_actions: 16
+num_filters: 32
+num_pos: 37
+num_words: 500
+pos_dim: 50
+result_dir: results/grid_full_16_acc_test_3.txt
+save_model: True
+start_test_dom: 7200
+start_valid_dom: 6400
+state_dim: 3
+sub_sampling: True
+train_mode: grid
+weight_dir: weights/grid_full_16_acc.h5
+
+epoch: 1	 loss: 340.655521	 train_acc: 0.390995	 valid_acc: 0.437872	 test_acc:0.432850
+epoch: 2	 loss: 318.414596	 train_acc: 0.441961	 valid_acc: 0.460565	 test_acc:0.452567
+epoch: 3	 loss: 311.436180	 train_acc: 0.454258	 valid_acc: 0.466518	 test_acc:0.458519
+epoch: 4	 loss: 306.625984	 train_acc: 0.465583	 valid_acc: 0.463728	 test_acc:0.458147
+epoch: 5	 loss: 302.458416	 train_acc: 0.476516	 valid_acc: 0.469494	 test_acc:0.467448
+epoch: 6	 loss: 298.966607	 train_acc: 0.481717	 valid_acc: 0.468936	 test_acc:0.474330
+epoch: 7	 loss: 295.747466	 train_acc: 0.487796	 valid_acc: 0.475260	 test_acc:0.476190
+epoch: 8	 loss: 292.607792	 train_acc: 0.492072	 valid_acc: 0.470424	 test_acc:0.484933
+epoch: 9	 loss: 289.765681	 train_acc: 0.496556	 valid_acc: 0.471726	 test_acc:0.476562
+epoch: 10	 loss: 287.050632	 train_acc: 0.501202	 valid_acc: 0.480097	 test_acc:0.480469
+epoch: 11	 loss: 284.598631	 train_acc: 0.505732	 valid_acc: 0.481957	 test_acc:0.477121
+epoch: 12	 loss: 281.995065	 train_acc: 0.508252	 valid_acc: 0.479167	 test_acc:0.476004
+epoch: 13	 loss: 279.644124	 train_acc: 0.511141	 valid_acc: 0.474330	 test_acc:0.479353
+epoch: 14	 loss: 277.580930	 train_acc: 0.512458	 valid_acc: 0.473214	 test_acc:0.481771
+epoch: 15	 loss: 275.433336	 train_acc: 0.516064	 valid_acc: 0.472284	 test_acc:0.480469
+epoch: 16	 loss: 273.614729	 train_acc: 0.517659	 valid_acc: 0.479911	 test_acc:0.480655
+epoch: 17	 loss: 271.612411	 train_acc: 0.522813	 valid_acc: 0.477865	 test_acc:0.480841
+epoch: 18	 loss: 270.300878	 train_acc: 0.523461	 valid_acc: 0.478237	 test_acc:0.475632
+epoch: 19	 loss: 269.049343	 train_acc: 0.525194	 valid_acc: 0.475446	 test_acc:0.473028
+epoch: 20	 loss: 267.794700	 train_acc: 0.526812	 valid_acc: 0.477493	 test_acc:0.474702
+epoch: 21	 loss: 266.414758	 train_acc: 0.527760	 valid_acc: 0.469680	 test_acc:0.475446
+
+ Best result: 
+ {'train_acc': 0.5057322485207101, 'test_acc': 0.4771205357142857, 'epoch': 10, 'valid_acc': 0.48195684523809523}

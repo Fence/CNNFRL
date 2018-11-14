@@ -1,0 +1,68 @@
+
+ Arguments:
+agent_name: beta
+autolen: 1
+batch_size: 256
+domain: win2k
+early_stop: 10
+epochs: 200
+gpu_fraction: 0.2
+hist_len: 4
+image_dim: 16
+image_padding: 1
+learning_rate: 0.001
+max_steps: 86
+max_train_doms: 6400
+metric: succ
+min_epochs: 20
+num_actions: 16
+num_filters: 32
+num_pos: 37
+num_words: 500
+pos_dim: 50
+result_dir: results/grid_beta_16_succ_test.txt
+save_model: True
+start_test_dom: 7200
+start_valid_dom: 6400
+state_dim: 3
+sub_sampling: True
+train_mode: grid
+weight_dir: weights/grid_beta_16_succ.h5
+
+epoch: 1	 loss: 351.579360	 train_acc: 0.340052
+valid_succ: 0.427065	 valid_diff: 9.149405	 test_succ: 0.435374	 test_diff: 9.241534
+
+epoch: 2	 loss: 336.672069	 train_acc: 0.375023
+valid_succ: 0.448582	 valid_diff: 9.179176	 test_succ: 0.416810	 test_diff: 9.874685
+
+epoch: 3	 loss: 332.489342	 train_acc: 0.390717
+epoch: 4	 loss: 329.423610	 train_acc: 0.398784
+epoch: 5	 loss: 327.449579	 train_acc: 0.402436
+epoch: 6	 loss: 326.062450	 train_acc: 0.404262
+epoch: 7	 loss: 325.045463	 train_acc: 0.406920
+epoch: 8	 loss: 324.082897	 train_acc: 0.408446
+valid_succ: 0.473193	 valid_diff: 9.526343	 test_succ: 0.414931	 test_diff: 10.207129
+
+epoch: 9	 loss: 323.388460	 train_acc: 0.412653
+valid_succ: 0.497525	 valid_diff: 8.989595	 test_succ: 0.431095	 test_diff: 9.936276
+
+epoch: 10	 loss: 322.786321	 train_acc: 0.411659
+epoch: 11	 loss: 322.183047	 train_acc: 0.414086
+epoch: 12	 loss: 321.558204	 train_acc: 0.413924
+epoch: 13	 loss: 321.064764	 train_acc: 0.414987
+epoch: 14	 loss: 320.502245	 train_acc: 0.415126
+valid_succ: 0.520000	 valid_diff: 8.577933	 test_succ: 0.475410	 test_diff: 9.104536
+
+epoch: 15	 loss: 320.112633	 train_acc: 0.416073
+epoch: 16	 loss: 319.564530	 train_acc: 0.415241
+epoch: 17	 loss: 319.059101	 train_acc: 0.416281
+epoch: 18	 loss: 318.567361	 train_acc: 0.417229
+epoch: 19	 loss: 318.259085	 train_acc: 0.419286
+epoch: 20	 loss: 317.800031	 train_acc: 0.421205
+epoch: 21	 loss: 317.489734	 train_acc: 0.423077
+epoch: 22	 loss: 317.026744	 train_acc: 0.422638
+epoch: 23	 loss: 316.424577	 train_acc: 0.424764
+epoch: 24	 loss: 315.913881	 train_acc: 0.426405
+
+ Best result: 
+ {'valid_succ': 0.52, 'epoch': 13, 'test_diff': 9.104536489151874, 'test_succ': 0.47540983606557374, 'valid_diff': 8.577933450087565}

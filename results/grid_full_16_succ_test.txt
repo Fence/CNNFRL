@@ -1,0 +1,63 @@
+
+ Arguments:
+agent_name: full
+autolen: 1
+batch_size: 256
+domain: win2k
+early_stop: 10
+epochs: 200
+gpu_fraction: 0.2
+hist_len: 4
+image_dim: 16
+image_padding: 1
+learning_rate: 0.001
+max_steps: 86
+max_train_doms: 6400
+metric: succ
+min_epochs: 20
+num_actions: 16
+num_filters: 32
+num_pos: 37
+num_words: 500
+pos_dim: 50
+result_dir: results/grid_full_16_succ_test.txt
+save_model: True
+start_test_dom: 7200
+start_valid_dom: 6400
+state_dim: 3
+sub_sampling: True
+train_mode: grid
+weight_dir: weights/grid_full_16_succ.h5
+
+epoch: 1	 loss: 342.037561	 train_acc: 0.382212
+valid_succ: 0.558875	 valid_diff: 7.252624	 test_succ: 0.532313	 test_diff: 7.915688
+
+epoch: 2	 loss: 320.348105	 train_acc: 0.435304
+epoch: 3	 loss: 313.663354	 train_acc: 0.454581
+epoch: 4	 loss: 308.524855	 train_acc: 0.465491
+epoch: 5	 loss: 304.596530	 train_acc: 0.472055
+epoch: 6	 loss: 301.198707	 train_acc: 0.479197
+epoch: 7	 loss: 297.932040	 train_acc: 0.485646
+valid_succ: 0.564835	 valid_diff: 7.533457	 test_succ: 0.480274	 test_diff: 8.990637
+
+epoch: 8	 loss: 295.191054	 train_acc: 0.486987
+valid_succ: 0.568765	 valid_diff: 7.913928	 test_succ: 0.501736	 test_diff: 8.799625
+
+epoch: 9	 loss: 292.153623	 train_acc: 0.492095
+epoch: 10	 loss: 289.364354	 train_acc: 0.497920
+epoch: 11	 loss: 286.946184	 train_acc: 0.499353
+valid_succ: 0.592375	 valid_diff: 7.775606	 test_succ: 0.514134	 test_diff: 8.582342
+
+epoch: 12	 loss: 284.469012	 train_acc: 0.505293
+epoch: 13	 loss: 282.102733	 train_acc: 0.508113
+epoch: 14	 loss: 280.103788	 train_acc: 0.509754
+epoch: 15	 loss: 277.827309	 train_acc: 0.513868
+epoch: 16	 loss: 275.754578	 train_acc: 0.517266
+epoch: 17	 loss: 274.228298	 train_acc: 0.519115
+epoch: 18	 loss: 272.144697	 train_acc: 0.521496
+epoch: 19	 loss: 270.839435	 train_acc: 0.522397
+epoch: 20	 loss: 268.995879	 train_acc: 0.525032
+epoch: 21	 loss: 267.522687	 train_acc: 0.527228
+
+ Best result: 
+ {'valid_succ': 0.592375366568915, 'epoch': 10, 'test_diff': 8.582341650671784, 'test_succ': 0.5141342756183745, 'valid_diff': 7.775606469002695}
